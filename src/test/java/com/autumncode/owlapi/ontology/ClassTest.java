@@ -123,7 +123,7 @@ public class ClassTest {
         }
     }
 
-    @Test
+/*    @Test
     public void simpleParentage() throws Exception {
         OntologyHelper oh = new OntologyHelper();
         OWLOntology o = oh.createOntology("http://autumncode.com/ontologies/genealogy.owl");
@@ -186,7 +186,7 @@ public class ClassTest {
         try (final AutoCloseable ignored = reasoner::dispose) {
             assertFalse(reasoner.isConsistent());
         }
-    }
+    }*/
 
     @Test
     public void addDataToIndividual() throws Exception {
